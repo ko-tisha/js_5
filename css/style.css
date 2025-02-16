@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.task {
+    display: none;
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#message {
+    color: red;
+    font-weight: bold;
+}
+
+#timer, #stopwatch {
+    font-size: 24px;
+    font-weight: bold;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 5</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <h1>Урок 5</h1>
+    <button id="showTask1">Задание 1: Счётчик кликов</button>
+    <button id="showTask2">Задание 2: Таймер с обратным отсчётом</button>
+    <button id="showTask3">Задание 3: Таймер с кнопками</button>
+
+    <div id="task1" class="task">
+        <h2>Счётчик кликов</h2>
+        <button id="clickButton">Кликни меня</button>
+        <p>Количество кликов: <span id="counter">0</span></p>
+        <p id="message"></p>
+    </div>
+
+    <div id="task2" class="task">
+        <h2>Таймер с обратным отсчётом</h2>
+        <div id="timer">10</div>
+        <button id="resetButton">Сбросить таймер</button>
+    </div>
+
+    <div id="task3" class="task">
+        <h2>Таймер с кнопками</h2>
+        <div id="stopwatch">0</div>
+        <button id="startButton">Старт</button>
+        <button id="stopButton">Стоп</button>
+        <button id="resetStopwatchButton">Сброс</button>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
